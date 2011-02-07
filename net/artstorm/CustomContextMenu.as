@@ -38,7 +38,7 @@ package net.artstorm {
 			cx_menu = new ContextMenu();
 			cx_menu.hideBuiltInItems();				// Hide the default Items
 
-			var cx_title:ContextMenuItem = new ContextMenuItem( "Turntable Display v1.0" );
+			var cx_title:ContextMenuItem = new ContextMenuItem( "JS Turntable Viewer v1.1" );
 			var cx_copyright:ContextMenuItem = new ContextMenuItem( "Copyright ©2009, Johan Steen" );
 			cx_title.addEventListener( ContextMenuEvent.MENU_ITEM_SELECT, visit_artstorm );
 			cx_copyright.addEventListener( ContextMenuEvent.MENU_ITEM_SELECT, visit_artstorm );

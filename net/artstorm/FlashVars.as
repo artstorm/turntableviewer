@@ -25,6 +25,7 @@ package net.artstorm {
 		private var preview:String;
 		private var file:String;
 		private var xml:String;
+		private var config:String;
 		
 		// Initialization:
 		public function FlashVars(host:Object) {
@@ -43,10 +44,15 @@ package net.artstorm {
 		public function getXML():String {
 			// For local testing
             if(host_Obj.root.loaderInfo.url.indexOf("file:") != -1){
-                xml = "turntable.xml";
+//                xml = "turntable.xml";
             }
 			return xml;
 		}
+		
+		public function getConfig():String {
+			return config;
+		}
+		
 		// Protected Methods:
 		private function initVars():void {
 			// Get the preview image
@@ -58,6 +64,9 @@ package net.artstorm {
 			// Get the XML file
 			if (flashvars["xml"]) 
 				{ xml = flashvars["xml"]; } else { }
+			// Get the Config file
+			if (flashvars["config"]) 
+				{ config = flashvars["config"]; } else { }
 		}
 	}
 	
