@@ -1,4 +1,4 @@
-JS Turntable Viewer v2.0
+JS Turntable Viewer v2.1
 ========================
 Flash Turntable Viewer by Johan Steen.
 
@@ -25,6 +25,11 @@ This work is licensed under the Creative Commons Attribution 3.0 Unported Licens
 
 Turntable Viewer Changelog
 ==========================
+
+Version 2.1 - 9 Mar 2010
+* Updated the examples to use swfobject v2.2.
+* Updated the examples to use swfobject's dynamic publishing method instead of static publishing.
+* Note: As this was an update to include an easier way to embed the viewer, the version when right clicking the viewer still says v2.0.
 
 Version 2.0 – 21 Sep 2009
 * Rewrote the entire application architecture from scratch to be fully object oriented for easier additions of new features.

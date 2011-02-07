@@ -24,109 +24,51 @@ body {
 .turntable #mainContent {
 	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
 }
+#turntable1, #turntable2, #turntable3, #turntable4 {
+	outline: none;
+}
 -->
 </style>
+<script type='text/javascript' src='swfobject.js?ver=2.2'></script>
+<script type="text/javascript">
+swfobject.embedSWF("js-turntable.swf", "turntable1", "640", "436", "9.0.115", "",{file : "clips/Destrachan-Turntable.swf", preview : "clips/Destrachan-Preview.jpg"},{"bgcolor" : "#ffffff"},{});
+swfobject.embedSWF("js-turntable.swf", "turntable2", "640", "436", "9.0.115", "",{file : "clips/NinjaGallery.xml", preview : "clips/Ninja-Preview.jpg"},{"bgcolor" : "#ffffff"},{});
+swfobject.embedSWF("js-turntable.swf", "turntable3", "640", "436", "9.0.115", "",{config : "example-config.xml"},{"bgcolor" : "#ffffff"},{});
+swfobject.embedSWF("js-turntable.swf", "turntable4", "640", "436", "9.0.115", "",{file : "clips/NinjaGallery.xml", preview : "clips/Ninja-Preview.jpg", theme : "js-turntable-theme.swf"},{"bgcolor" : "#ffffff"},{});
+</script>
 </head>
 <body class="turntable">
 <div id="container">
 <div id="mainContent">
 
-	<h1> JS Turntable Viewer 2.0: Examples</h1>
-	<p>Thank you for downloading the viewer. Below you see a few examples of the embedded <a href="htthttp://www.artstorm.net/plugins/turntable-flash-viewer/">Turntable Viewer</a>. Copy and paste the source on your site to get started. See the documentation.htm for all available parameters to use.</p>
+	<h1> JS Turntable Viewer 2.1: Examples</h1>
+	<p>Thank you for downloading the viewer. Below you see a few examples of the embedded <a href="http://www.artstorm.net/plugins/turntable-flash-viewer/">Turntable Viewer</a>. Copy and paste the source on your site to get started. See the documentation.htm for all available parameters to use.</p>
 
 	<h2>Example 1 - Single Turntable</h2>
 	<p>Most basic example, a preview image and a single turntable file provided.</p>
 	<!-- START OF THE TURNTABLE EMBED -->
-	<script type="text/javascript" src="swfobject.js"></script>
-	<script type="text/javascript">
-		swfobject.registerObject("turntable","9.0.98","expressInstall.swf");
-	</script>
-
-	<object id="turntable" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="turntable" width="640" height="436">
-		<param name="movie" value="js-turntable.swf" />
-		<param name="allowfullscreen" value="false" />
-		<param name="allowscriptaccess" value="always" />
-		<param name="flashvars" value="preview=clips/Destrachan-Preview.jpg&file=clips/Destrachan-Turntable.swf" />
-		<object type="application/x-shockwave-flash" data="js-turntable.swf" width="640" height="436">
-			<param name="movie" value="js-turntable.swf" />
-			<param name="allowfullscreen" value="false" />
-			<param name="allowscriptaccess" value="always" />
-			<param name="flashvars" value="preview=clips/Destrachan-Preview.jpg&file=clips/Destrachan-Turntable.swf" />
-			<p><a href="http://get.adobe.com/flashplayer">Get Flash</a> to see the turntable.</p>
-		</object>
-	</object>
+    <div id="turntable1">A Turntable Viewer would be here. If you see this text, no or and old flash player is installed.</div>
 	<!-- END OF THE TURNTABLE EMBED -->
     
    	<h2>Example 2 - Gallery with two image sequences</h2>
 	<p>Building a small turntable gallery, using two separate jpg image sequences for the turntable clips in a gallery XML file.</p>
 
 	<!-- START OF THE TURNTABLE EMBED -->
-	<script type="text/javascript" src="swfobject.js"></script>
-	<script type="text/javascript">
-		swfobject.registerObject("turntable2","9.0.98","expressInstall.swf");
-	</script>
-
-	<object id="turntable2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="turntable" width="640" height="436">
-		<param name="movie" value="js-turntable.swf" />
-		<param name="allowfullscreen" value="false" />
-		<param name="allowscriptaccess" value="always" />
-		<param name="flashvars" value="preview=clips/Ninja-Preview.jpg&file=clips/NinjaGallery.xml" />
-		<object type="application/x-shockwave-flash" data="js-turntable.swf" width="640" height="436">
-			<param name="movie" value="js-turntable.swf" />
-			<param name="allowfullscreen" value="false" />
-			<param name="allowscriptaccess" value="always" />
-			<param name="flashvars" value="preview=clips/Ninja-Preview.jpg&file=clips/NinjaGallery.xml" />
-			<p><a href="http://get.adobe.com/flashplayer">Get Flash</a> to see the turntable.</p>
-		</object>
-	</object>
+    <div id="turntable2">A Turntable Viewer would be here. If you see this text, no or and old flash player is installed.</div>
 	<!-- END OF THE TURNTABLE EMBED -->
 
     <h2>Example 3 - Using Config File</h2>
     <p>Using a XML config file to set the preview, gallery file and some custom colors.</p>
 
 	<!-- START OF THE TURNTABLE EMBED -->
-	<script type="text/javascript" src="swfobject.js"></script>
-	<script type="text/javascript">
-		swfobject.registerObject("turntable3","9.0.98","expressInstall.swf");
-	</script>
-
-	<object id="turntable3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="turntable" width="640" height="436">
-		<param name="movie" value="js-turntable.swf" />
-		<param name="allowfullscreen" value="false" />
-		<param name="allowscriptaccess" value="always" />
-		<param name="flashvars" value="config=example-config.xml" />
-		<object type="application/x-shockwave-flash" data="js-turntable.swf" width="640" height="436">
-			<param name="movie" value="js-turntable.swf" />
-			<param name="allowfullscreen" value="false" />
-			<param name="allowscriptaccess" value="always" />
-			<param name="flashvars" value="config=example-config.xml" />
-			<p><a href="http://get.adobe.com/flashplayer">Get Flash</a> to see the turntable.</p>
-		</object>
-	</object>
+    <div id="turntable3">A Turntable Viewer would be here. If you see this text, no or and old flash player is installed.</div>
 	<!-- END OF THE TURNTABLE EMBED -->
 
     <h2>Example 4 - Using a Custom Theme</h2>
     <p>Using a custom theme swf to style the viewer. This is just a basic theme with some colors tweaked, but custom themes allows you to completely change all graphic in the viewer. See the theme folder in the application archive how to create your own themes.</p>
 
 	<!-- START OF THE TURNTABLE EMBED -->
-	<script type="text/javascript" src="swfobject.js"></script>
-	<script type="text/javascript">
-		swfobject.registerObject("turntable3","9.0.98","expressInstall.swf");
-	</script>
-
-	<object id="turntable3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="turntable" width="640" height="436">
-		<param name="movie" value="js-turntable.swf" />
-		<param name="allowfullscreen" value="false" />
-		<param name="allowscriptaccess" value="always" />
-		<param name="flashvars" value="preview=clips/Ninja-Preview.jpg&file=clips/NinjaGallery.xml&theme=js-turntable-theme.swf" />
-		<object type="application/x-shockwave-flash" data="js-turntable.swf" width="640" height="436">
-			<param name="movie" value="js-turntable.swf" />
-			<param name="allowfullscreen" value="false" />
-			<param name="allowscriptaccess" value="always" />
-			<param name="flashvars" value="preview=clips/Ninja-Preview.jpg&file=clips/NinjaGallery.xml&theme=js-turntable-theme.swf" />
-			<p><a href="http://get.adobe.com/flashplayer">Get Flash</a> to see the turntable.</p>
-		</object>
-	</object>
+    <div id="turntable4">A Turntable Viewer would be here. If you see this text, no or and old flash player is installed.</div>
 	<!-- END OF THE TURNTABLE EMBED -->
 
 
