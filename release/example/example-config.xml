@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<preview>clips/Destrachan-Preview.jpg</preview>
+	<file>clips/TripleGallery.xml</file>
+	
+	<displaycolor>222222</displaycolor>
+	<backcolor>171c1b</backcolor>
+	<frontcolor>374341</frontcolor>
+	<scrubcolor>06b1f1</scrubcolor>
+</config>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<turntable>
+    <clip>
+        <thumb>clips/Ninja-Thumb.jpg</thumb>
+        <file>clips/NinjaSequence/Ninja_00001.jpg</file>
+    </clip>
+    <clip>
+        <thumb>clips/NinjaClay-Thumb.jpg</thumb>
+        <file>clips/NinjaClaySequence/NinjaClay_00001.jpg</file>
+    </clip>
+</turntable>

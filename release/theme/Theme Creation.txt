@@ -1,0 +1,14 @@
+Theme Creation for JS Turntable Viewer
+======================================
+
+Included in this folder in an Adobe Flash CS4 document named "Theme Template.fla".
+Use that one two change colors, import new graphics or redesign the available elements like you please to create your own custom looking theme for the viewer.
+
+After you have published the file as an swf file, you can apply it to the viewer with the "theme" setting in the config.
+
+I've made some basic tweaks from the defaukt theme to the "Theme Template.fla" and published it to "js-turntable-theme.swf" which you can experiment with and start your own themes with as a base.
+
+I'll write a proper more in-depth guide in a coming release.
+
+/Johan Steen
+http://www.artstorm.net/

@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>JS Turntable Viewer Documentation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+<!--
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 16px;
+	background-color: #666;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.turntable #container {
+	width: 780px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.turntable #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+}
+dl {
+	border: 3px double #ccc;
+	padding: 0.5em;
+}
+dt {
+	float: left;
+	clear: left;
+	width: 100px;
+	text-align: right;
+	font-weight: bold;
+	color: green;
+}
+dd {
+	margin: 0 0 0 110px;
+	padding: 0 0 0.5em 0;
+}
+-->
+</style>
+</head>
+<body class="turntable">
+<div id="container">
+<div id="mainContent">
+<h1> JS Turntable Viewer 2.0: Documentation</h1>
+<p>Here is a brief introduction to get started using the Turntable Viewer and what settings that can be used. See the included example folder for practical examples of how to use these settings.</p>
+<h2>Available Settings </h2>
+<p>The below table shows all available settings that can be used to configure the viewer. These settings can be initialized with flashvars or you can create a config XML file and just just config=path to xml file as a flashvar.</p>
+<dl>
+<dt>file</dt>
+<dd>(Required) Path to a  turntable file or a gallery XML file.</dd>
+<dt>preview</dt>
+<dd>(Default: n/a) Path to a preview image to display before any turntable clip is loaded.</dd>
+<dt>displaycolor</dt>
+<dd>(Default: n/a) The color used behind the turntable clip if it doesn't fill the entire view area</dd>
+<dt>backcolor</dt>
+<dd>(Default: n/a) The background color of the control bar and the color used on display icons and text.</dd>
+<dt>frontcolor</dt>
+<dd>(Default: n/a) The color used on the scrubbing track, the icon on the scrubber and the background of display icons.</dd>
+<dt>scrubcolor</dt>
+<dd>(Default: n/a) The color of the scrubber.</dd>
+<dt>theme</dt>
+<dd>(Default: n/a) The path to a custom theme file.</dd>
+<dt>stretching</dt>
+<dd>(Default: UNIFORM) How clips shall be stretched if they don't fit in the viewing area. Available options are: NONE (No stretching), UNIFORM (Fills the screen with aspect kept, adding black bars if needed), FILL (fills the view, and cuts parts outside the view), EXACTFIT (Stretches to fit the view)</dd>
+<dt>thumbsize</dt>
+<dd>(Default: 80) The size of the thumbnails when a gallery is used.</dd>
+<dt>thumbmargin</dt>
+<dd>(Default: 20) The distance between the thumbnails in a gallery.</dd>
+</dl>
+
+<h3>File</h3>
+<p>If you intend to only display a single clip in the viewer you can specify the path to your turntable clip with this setting. Currently the supported clip types are either an AS3 compiled SWF containing the frames laid out on the timeline or  a jpg/png/gif image sequence.</p>
+<p>When using an image sequence, set the path to the first image in the image sequence, ie turntable/tt-sequence_0001.jpg and the viewer will find all following frames when loading the clip.</p>
+<p>If you intend to use the viewers built in gallery feature, specify the path to your gallery XML file here instead. The XML file is setup like this:</p>
+<code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;<br />
+&lt;turntable&gt;<br />
+&lt;clip&gt;<br />
+&lt;thumb&gt;thumb0.jpg&lt;/thumb&gt;<br />
+&lt;file&gt;imgseq_test/imgseq_0001.jpg&lt;/file&gt;<br />
+&lt;/clip&gt;<br />
+&lt;clip&gt;<br />
+&lt;thumb&gt;ninja1-thumb.jpg&lt;/thumb&gt;<br />
+&lt;file&gt;ninja1.swf&lt;/file&gt;<br />
+&lt;/clip&gt;<br />
+&lt;clip&gt;<br />
+&lt;thumb&gt;ninja2-thumb.jpg&lt;/thumb&gt;<br />
+&lt;file&gt;ninja2.swf&lt;/file&gt;<br />
+&lt;/clip&gt;<br />
+&lt;/turntable&gt;</code>
+<p>ie. &lt;clip&gt;&lt;thumb&gt;path to thumbnail&lt;/thumb&gt;&lt;file&gt;path to turntable&lt;/file&gt;&lt;/clip&gt;</p>
+<p>for each turntable clip in the gallery.</p>
+<h3>Colors</h3>
+<p>Colors are defined with hexadecimal numbers. ie 000000, ff0000 or aa4523.</p>
+<h3>Theme</h3>
+<p>The path to a swf file containing a custom theme for the viewer, which allows much more customization than changing the color values. See the theme folder in the archive of how to create your own theme to use.</p>
+<h2>License</h2>
+<p>The JS Turntable Viewer license allows you to use, modify and  redistribute the application as long as the attribution is left intact.<br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p>
+<p>It's no obligation but I do appreciate a link to my site if you use the turntable viewer using the following code:<br/>
+<code>&lt;a href=&quot;http://www.artstorm.net/&quot; title=&quot;3D Portfolio of Johan Steen&quot;&gt;Turntable Viewer by Johan Steen&lt;/a&gt; </code></p>
+
+<h2>Credit</h2>
+<p>The Turntable viewer is created by <a href="http://www.artstorm.net/" title="3D Portfolio">Johan Steen</a> in 2009.</p>
+<!-- end #mainContent -->
+</div>
+<!-- end #container -->
+</div>
+</body>
+</html>
