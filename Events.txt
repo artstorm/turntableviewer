@@ -1,0 +1,45 @@
+Event Lists
+ControlBar:
+Listens to:	ControllerEvent.RESIZE		LoaderManagerEvent.STATE
+Sends:		controller.sendEvent('ITEM');	controller.sendEvent('seek')
+
+Display:
+Listens to:	ControllerEvent.ERROR		ControllerEvent.GALLERY
+		ControllerEvent.RESIZE		LoaderManagerEvent.ERROR
+		LoaderManagerEvent.BUFFER	LoaderManagerEvent.STATE
+Sends:		controller.sendEvent('ITEM');
+
+Gallery:
+Listens to:	ControllerEvent.GALLERY		ControllerEvent.RESIZE
+		LoaderManagerEvent.STATE
+Sends:		controller.sendEvent('newitem')
+
+
+SWFLoader:
+Sends:		loaderManager.sendEvent(LoaderManagerEvent.STATE,{newstate:LoaderStates.BUFFERING});
+		loaderManager.sendEvent(LoaderManagerEvent.BUFFER,{percentage:0});
+		loaderManager.sendEvent(LoaderManagerEvent.ERROR
+		loaderManager.sendEvent(LoaderManagerEvent.META
+		loaderManager.sendEvent(LoaderManagerEvent.STATE
+		loaderManager.sendEvent(LoaderManagerEvent.BUFFER
+		loaderManager.sendEvent(LoaderManagerEvent.STATE
+
+
+Controller:
+Listens to:	ControllerEvent.SEEK		ControllerEvent.LOAD
+		ControllerEvent.REDRAW		ControllerEvent.NEWITEM
+		LoaderManagerEvent.META
+Sends:		ControllerEvent.STOP		ControllerEvent.ERROR
+		ControllerEvent.GALLERY		ControllerEvent.RESIZE
+		ControllerEvent.ITEM,{index:config['item']}
+		ControllerEvent.SEEKTWO
+
+LoaderManager:
+Listens to:	ControllerEvent.ITEM		ControllerEvent.GALLERY
+		ControllerEvent.RESIZE
+		ControllerEvent.SEEKTWO		ControllerEvent.STOP
+Sends:		LoaderManagerEvent.ERROR	LoaderManagerEvent.LOADED
+
+
+Turntable:
+Sends:		ControllerEvent.LOAD
