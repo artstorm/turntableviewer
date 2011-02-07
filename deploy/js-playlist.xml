@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<turntable>
+    <clip>
+        <thumb>thumb0.jpg</thumb>
+        <file>imgseq_test/imgseq_0001.jpg</file>
+    </clip>
+    <clip>
+        <thumb>ninja1-thumb.jpg</thumb>
+        <file>ninja1.swf</file>
+    </clip>
+    <clip>
+        <thumb>ninja2-thumb.jpg</thumb>
+        <file>ninja2.swf</file>
+    </clip>
+    <clip>
+        <thumb>thumb3.jpg</thumb>
+        <file>Converter.swf</file>
+    </clip>
+</turntable>

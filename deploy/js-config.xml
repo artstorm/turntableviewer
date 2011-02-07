@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!-- Nya -->
+	<preview>destra-preview.jpg</preview>
+	<file>ninja1.swf</file>
+	<file>js-playlist.xml</file>
+
+			displaycolor:'ffff33',		// DISPLAY:(BG för allting runt om) 
+			backcolor:'ff3333',			// DISPLAY:(Färg på ikoner/och ikon text) // CB: (Background color)
+			frontcolor:'33ff33',		// DISPLAY:(BG på ikoner) // CB: (scrub track/scrub icon)
+			scrubcolor:'3333ff',		// CB: (scrubber)
+
+</config>
