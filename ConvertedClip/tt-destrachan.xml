@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<turntable>
+	<preview>http://www.artstorm.net/media/portfolio/destrachan/tt-destrachan.jpg</preview>
+	<thumbsize>80</thumbsize>
+	<thumbmargin>20</thumbmargin>
+    <clip>
+        <thumb>http://www.artstorm.net/media/portfolio/destrachan/tt-destrachan-render.jpg</thumb>
+        <file>http://www.artstorm.net/media/portfolio/destrachan/tt-destrachan-render.swf</file>
+    </clip>
+    <clip>
+        <thumb>http://www.artstorm.net/media/portfolio/destrachan/tt-destrachan-rubber.jpg</thumb>
+        <file>http://www.artstorm.net/media/portfolio/destrachan/tt-destrachan-rubber.swf</file>
+    </clip>
+</turntable>

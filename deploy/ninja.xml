@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<turntable>
+	<preview>http://www.artstorm.net/media/flash/turntable/ninja-preview.jpg</preview>
+	<thumbsize>80</thumbsize>
+	<thumbmargin>20</thumbmargin>
+    <clip>
+        <thumb>http://www.artstorm.net/media/flash/turntable/ninja1-thumb.jpg</thumb>
+        <file>http://www.artstorm.net/media/flash/turntable/ninja1.swf</file>
+    </clip>
+    <clip>
+        <thumb>http://www.artstorm.net/media/flash/turntable/ninja2-thumb.jpg</thumb>
+        <file>http://www.artstorm.net/media/flash/turntable/ninja2.swf</file>
+    </clip>
+</turntable>
