@@ -1,31 +1,16 @@
-﻿/**
-* Application: Turntable Viewer for 3D rendered sequences
-* Reads in one or several AS3 compiled swf's or jpg/png/gif imaage sequences and let's the user scrub or switch between them
-*
-* @author: Johan Steen
-* @copyright: artstorm.net
-* @date: 13 January 2009
-* @modified: 21 September 2009
-* @version: 2.0
-*
-* @revisions
-* Version 2.0 - 21 September 2009
-* - Rewrote the entire application architecture to be fully object oriented.
-* - Added different stretching modes for the turntable clip when it differs from the viewer size.
-* - Implemented error handling system, which should helpful when configuring the viewer.
-* - Changed the config format for xml/flashvars settings.
-* - Changed the gallery format to define a gallery of turntable clips.
-* - Implemented a function to design a custom theme for the viewer.
-* - Updated the default theme.
-* - Removed gallery mouse listeners while loading new clip.
-* - Implemented a loader for jpg/png/gif image sequences.
-* - Changed the loading behaviour to progressively display the turntable while buffering.
-* Version 1.1 - 18 August 2009
-* - Added a config class to be able to set colors for the turntable controller
-* - First Public Release
-* Version 1.0 - 13 January 2009
-* - Initial Release
-*/
+﻿/*------------------------------------------------------------------------------
+ Application: Turntable Viewer for 3D rendered sequences
+ Reads in one or several AS3 compiled swf's or jpg/png/gif imaage sequences and
+ let's the user scrub or switch between them.
+ Author: Johan Steen
+ Author URI: http://www.artstorm.net/
+ Date: 21 September 2009
+ 
+ Copyright (c) 2010, Johan Steen
+ All Rights Reserved.
+ Use is subject to license terms.
+------------------------------------------------------------------------------*/
+
 package net.artstorm.turntable {
 
 	import net.artstorm.events.*;
