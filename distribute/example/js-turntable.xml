@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<controlbarTopColor>0xcccccc</controlbarTopColor>
+	<controlbarBottomColor>0x444444</controlbarBottomColor>
+	<controlbarTopBorderColor>0xffffff</controlbarTopBorderColor>
+	<controlbarBottomBorderColor>0xffffff</controlbarBottomBorderColor>
+	<controlbarTopBorderAlpha>0.5</controlbarTopBorderAlpha>
+	<controlbarBottomBorderAlpha>0.5</controlbarBottomBorderAlpha>
+
+	<scrollBarBackgroundColor>0x444444</scrollBarBackgroundColor>
+	<scrollBarBackgroundAlpha>0.8</scrollBarBackgroundAlpha>
+
+	<scrollBarColor>0x78c3f8</scrollBarColor>
+	<scrollBarIconColor>0x213644</scrollBarIconColor>
+</config>

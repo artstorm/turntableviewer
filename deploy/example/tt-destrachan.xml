@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<turntable>
+	<preview>tt-destrachan.jpg</preview>
+	<thumbsize>80</thumbsize>
+	<thumbmargin>20</thumbmargin>
+    <clip>
+        <thumb>tt-destrachan-render.jpg</thumb>
+        <file>tt-destrachan-render.swf</file>
+    </clip>
+    <clip>
+        <thumb>tt-destrachan-rubber.jpg</thumb>
+        <file>tt-destrachan-rubber.swf</file>
+    </clip>
+</turntable>
