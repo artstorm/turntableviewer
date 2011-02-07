@@ -11,7 +11,7 @@
 *
 * @revisions
 */
-package net.artstorm {
+package net.artstorm.assets {
 	import flash.net.URLRequest; 
 	import flash.display.Loader;  
 	import flash.display.Sprite;
