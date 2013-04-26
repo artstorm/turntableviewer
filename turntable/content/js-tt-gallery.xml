@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <turntable>
     <clip>
-        <thumb>http://artstorm.github.com/turntableviewer/turntable/content/js-tt-innkeeper.jpg</thumb>
-        <file>http://artstorm.github.com/turntableviewer/turntable/content/js-tt-innkeeper.swf</file>
+        <thumb>http://artstorm.github.io/turntableviewer/turntable/content/js-tt-innkeeper.jpg</thumb>
+        <file>http://artstorm.github.io/turntableviewer/turntable/content/js-tt-innkeeper.swf</file>
     </clip>
     <clip>
-        <thumb>http://artstorm.github.com/turntableviewer/turntable/content/js-tt-ninja.jpg</thumb>
-        <file>http://artstorm.github.com/turntableviewer/turntable/content/js-tt-ninja.swf</file>
+        <thumb>http://artstorm.github.io/turntableviewer/turntable/content/js-tt-ninja.jpg</thumb>
+        <file>http://artstorm.github.io/turntableviewer/turntable/content/js-tt-ninja.swf</file>
     </clip>
     <clip>
-        <thumb>http://artstorm.github.com/turntableviewer/turntable/content/tt-destrachan-render.jpg</thumb>
-        <file>http://artstorm.github.com/turntableviewer/turntable/content/tt-destrachan-render.swf</file>
+        <thumb>http://artstorm.github.io/turntableviewer/turntable/content/tt-destrachan-render.jpg</thumb>
+        <file>http://artstorm.github.io/turntableviewer/turntable/content/tt-destrachan-render.swf</file>
     </clip>
     <clip>
-        <thumb>http://artstorm.github.com/turntableviewer/turntable/content/tt-destrachan-rubber.jpg</thumb>
-        <file>http://artstorm.github.com/turntableviewer/turntable/content/tt-destrachan-rubber.swf</file>
+        <thumb>http://artstorm.github.io/turntableviewer/turntable/content/tt-destrachan-rubber.jpg</thumb>
+        <file>http://artstorm.github.io/turntableviewer/turntable/content/tt-destrachan-rubber.swf</file>
     </clip>
 </turntable>
